@@ -18,4 +18,5 @@ class Special_teacher extends Teacher6 {
 $t1 = new Special_teacher("Ponwana");
 $t1->show();
 $t1->intro();
+print ("test edit");
 ?>
