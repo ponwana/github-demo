@@ -12,12 +12,12 @@ class Teacher {
     }
 }
 
-$aom = new Teacher();
-$ann = new Teacher();
-$aom->set_name('Aom');
-$ann->set_name("Ann");
+$t1 = new Teacher();
+$t2 = new Teacher();
+$t1->set_name('Aom');
+$t2->set_name("Ann");
 
-echo $aom->get_name();
+echo $t1->get_name();
 echo "<br>";
-echo $ann->get_name();
+echo $t2->get_name();
 ?>
